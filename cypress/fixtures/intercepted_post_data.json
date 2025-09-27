@@ -1,0 +1,111 @@
+[
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "boss2@gmail.com",
+      "password": "password1234"
+    },
+    "responseBody": {
+      "_id": "68d63aa3b90092a9c2d335f0",
+      "firstName": "Boss",
+      "lastName": "Bot",
+      "email": "boss2@gmail.com",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDYzYWEzYjkwMDkyYTljMmQzMzVmMCIsImlhdCI6MTc1ODk2Nzk0MywiZXhwIjoxNzU4OTcxNTQzfQ.cFpRmzRnGK5p6G1nSPq8WVvLXaQsqhb5VmtoBhFoLq0"
+    },
+    "statusCode": 200,
+    "timestamp": "2025-09-27T10:12:19.132Z",
+    "description": "Real intercepted data from UI",
+    "expectedStatus": 200
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "user1@example.com",
+      "password": "password123"
+    },
+    "expectedStatus": 401,
+    "description": "Test user account 1"
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "user2@example.com",
+      "password": "password123"
+    },
+    "expectedStatus": 401,
+    "description": "Test user account 2"
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "manager@company.com",
+      "password": "manager2024"
+    },
+    "expectedStatus": 401,
+    "description": "Manager account"
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "test@cypress.io",
+      "password": "testpass123"
+    },
+    "expectedStatus": 401,
+    "description": "Cypress test account"
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "demo@demo.com",
+      "password": "demopass"
+    },
+    "expectedStatus": 401,
+    "description": "Demo account with weak password"
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "inactive@example.com",
+      "password": "password123"
+    },
+    "expectedStatus": 401,
+    "description": "Inactive user account"
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "wrongpassword@example.com",
+      "password": "wrongpass"
+    },
+    "expectedStatus": 401,
+    "description": "Wrong password test"
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "notexist@example.com",
+      "password": "password123"
+    },
+    "expectedStatus": 401,
+    "description": "Non-existent email"
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "admin@system.com",
+      "password": "admin123"
+    },
+    "expectedStatus": 401,
+    "description": "Fake admin account"
+  }
+]

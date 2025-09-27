@@ -1,0 +1,99 @@
+{
+  "totalTests": 10,
+  "passed": 10,
+  "failed": 0,
+  "averageDuration": 567.3,
+  "testResults": [
+    {
+      "email": "boss2@gmail.com",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "success": true,
+      "duration": 893,
+      "description": "Real intercepted data from UI",
+      "timestamp": "2025-09-27T10:12:30.503Z"
+    },
+    {
+      "email": "user1@example.com",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 470,
+      "description": "Test user account 1",
+      "timestamp": "2025-09-27T10:12:30.983Z"
+    },
+    {
+      "email": "user2@example.com",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 1040,
+      "description": "Test user account 2",
+      "timestamp": "2025-09-27T10:12:32.036Z"
+    },
+    {
+      "email": "manager@company.com",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 559,
+      "description": "Manager account",
+      "timestamp": "2025-09-27T10:12:32.613Z"
+    },
+    {
+      "email": "test@cypress.io",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 447,
+      "description": "Cypress test account",
+      "timestamp": "2025-09-27T10:12:33.071Z"
+    },
+    {
+      "email": "demo@demo.com",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 469,
+      "description": "Demo account with weak password",
+      "timestamp": "2025-09-27T10:12:33.551Z"
+    },
+    {
+      "email": "inactive@example.com",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 438,
+      "description": "Inactive user account",
+      "timestamp": "2025-09-27T10:12:34.001Z"
+    },
+    {
+      "email": "wrongpassword@example.com",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 449,
+      "description": "Wrong password test",
+      "timestamp": "2025-09-27T10:12:34.461Z"
+    },
+    {
+      "email": "notexist@example.com",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 460,
+      "description": "Non-existent email",
+      "timestamp": "2025-09-27T10:12:34.932Z"
+    },
+    {
+      "email": "admin@system.com",
+      "expectedStatus": 401,
+      "actualStatus": 401,
+      "success": true,
+      "duration": 448,
+      "description": "Fake admin account",
+      "timestamp": "2025-09-27T10:12:35.391Z"
+    }
+  ],
+  "timestamp": "2025-09-27T10:12:35.396Z"
+}

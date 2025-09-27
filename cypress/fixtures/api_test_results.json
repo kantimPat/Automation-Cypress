@@ -1,0 +1,89 @@
+{
+  "totalAttempts": 10,
+  "successful": 10,
+  "unauthorized": 0,
+  "rateLimited": 0,
+  "averageDuration": 957.6,
+  "results": [
+    {
+      "attempt": 1,
+      "statusCode": 200,
+      "duration": 1120,
+      "timestamp": "2025-09-27T10:12:20.649Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 2,
+      "statusCode": 200,
+      "duration": 1356,
+      "timestamp": "2025-09-27T10:12:22.019Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 3,
+      "statusCode": 200,
+      "duration": 808,
+      "timestamp": "2025-09-27T10:12:22.839Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 4,
+      "statusCode": 200,
+      "duration": 987,
+      "timestamp": "2025-09-27T10:12:23.837Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 5,
+      "statusCode": 200,
+      "duration": 888,
+      "timestamp": "2025-09-27T10:12:24.738Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 6,
+      "statusCode": 200,
+      "duration": 956,
+      "timestamp": "2025-09-27T10:12:25.707Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 7,
+      "statusCode": 200,
+      "duration": 898,
+      "timestamp": "2025-09-27T10:12:26.616Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 8,
+      "statusCode": 200,
+      "duration": 899,
+      "timestamp": "2025-09-27T10:12:27.526Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 9,
+      "statusCode": 200,
+      "duration": 876,
+      "timestamp": "2025-09-27T10:12:28.415Z",
+      "hasToken": true,
+      "responseSize": 278
+    },
+    {
+      "attempt": 10,
+      "statusCode": 200,
+      "duration": 788,
+      "timestamp": "2025-09-27T10:12:29.216Z",
+      "hasToken": true,
+      "responseSize": 278
+    }
+  ]
+}
